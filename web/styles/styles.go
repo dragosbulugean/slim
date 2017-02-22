@@ -1,26 +1,26 @@
 package styles
 
 import (
-	. "bitbucket.org/dragosbulugean/aiurlabs/aeon/styles"
+  . "bitbucket.org/dragosbulugean/aiurlabs/aeon/styles"
 )
 
 var (
-	AppContainer = New(
-		"appContainer",
-		map[string]string {
+  AppContainer = New(
+    "appContainer",
+    map[string]string{
       S.Width:        "flex",
       S.FlexDirection:  "column",
       S.JustifyContent: "center",
       S.AlignItems:     "center",
       S.Height:         "100%",
     },
-	)
-	Title = New(
-		"appTitle",
-		map[string]string{
-			S.FontSize: "140%",
-		},
-	)
+  )
+  Title = New(
+    "appTitle",
+    map[string]string{
+      S.FontSize: "140%",
+    },
+  )
   URLInput = New(
     "aeonTextInput",
     map[string]string{
